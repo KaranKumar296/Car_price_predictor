@@ -12,66 +12,45 @@ car-price-predictor/
 ├── models/                # Trained ML model files (e.g., .pkl, .joblib)
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-📊 Dataset Overview
-Source: Web-scraped from Quikr.com (used car listings)
 
+# 📊 Dataset Overview
+Source: Web-scraped from Quikr.com (used car listings)
 Target Variable: Price (INR)
 
 # Features Used:
-
 name
-
 year
-
 kms_driven
-
 fuel_type
-
 owner_type
-
 location
 
-#🧹 Data Preprocessing
+# 🧹 Data Preprocessing
 Removed rows with missing or invalid values (e.g., "Ask For Price")
-
 Extracted brand from car name
-
 Converted string to numeric (e.g., kms_driven, year)
-
 Encoded categorical variables using Label and One-Hot Encoding
-
 Removed outliers using IQR and z-score methods
 
 # 📈 Exploratory Data Analysis
 Visualizations were used to explore:
-
 Price distribution across brands
-
 Fuel type vs price
-
 Kilometers driven vs price
-
 Correlation heatmaps
 
 # 🤖 Model Training
 Models Used:
-
 Linear Regression
-
 Lasso Regression
-
 Ridge Regression
-
 Random Forest Regressor
 
 Best Performer: Random Forest Regressor
 
 Evaluation Metrics:
-
 R² Score
-
 MAE
-
 RMSE
 
 # 💻 Technologies Used
