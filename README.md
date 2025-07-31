@@ -14,7 +14,7 @@ car-price-predictor/
 └── README.md              # Project documentation
 
 # 📊 Dataset Overview
-Source: Web-scraped from Quikr.com (used car listings)
+Source: Fetching from Quikr.com (used car listings)
 Target Variable: Price (INR)
 
 # Features Used:
@@ -42,16 +42,9 @@ Correlation heatmaps
 # 🤖 Model Training
 Models Used:
 Linear Regression
-Lasso Regression
-Ridge Regression
-Random Forest Regressor
-
-Best Performer: Random Forest Regressor
 
 Evaluation Metrics:
 R² Score
-MAE
-RMSE
 
 # 💻 Technologies Used
 Tool / Library	Purpose
@@ -70,14 +63,3 @@ Jupyter Notebook	Development environment
 ❗ Outliers: Extreme values in kilometers driven and price skewed model performance until treated.
 
 ❗ Multicollinearity: Some features were highly correlated, affecting regression model assumptions.
-
-# 🔮 Future Enhancements
-Add more features like engine size, transmission, insurance type, and service history.
-
-Apply advanced ensemble methods like XGBoost, LightGBM, or CatBoost.
-
-Implement cross-validation and grid search for better hyperparameter tuning.
-
-Integrate real-time car listing data for dynamic predictions.
-
-Deploy as a REST API for integration into other platforms.
