@@ -9,8 +9,6 @@ car-price-predictor/
 ├── data/                  # Raw and cleaned datasets
 ├── notebooks/             # Jupyter notebooks for EDA and modeling
 ├── scripts/               # Python scripts for data processing and modeling
-├── models/                # Trained ML model files (e.g., .pkl, .joblib)
-├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 
 # 📊 Dataset Overview
